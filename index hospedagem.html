@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivaz Hospedagens</title>
+    <link rel="stylesheet" href="hospedagem1.css">
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="#inicio">Vivaz Hospedagens</a>
+
+        <nav class="menu" aria-label="Menu principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#hospedagens">Hospedagens</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner" id="inicio">
+            <div class="banner-content">
+                <p class="etiqueta">Descanso com charme e natureza</p>
+                <h1>Encontre sua proxima hospedagem com conforto e tranquilidade</h1>
+                <p>
+                    Cabines, suites e refugios selecionados para quem quer respirar melhor,
+                    desacelerar e viver dias inesqueciveis.
+                </p>
+                <a class="botao" href="#hospedagens">Ver hospedagens</a>
+            </div>
+        </section>
+
+        <section class="pesquisa" aria-labelledby="titulo-pesquisa">
+            <h2 id="titulo-pesquisa">Planeje sua estadia</h2>
+            <form class="pesquisa-box">
+                <label>
+                    Destino
+                    <input type="text" placeholder="Ex: Serra, praia, campo">
+                </label>
+                <label>
+                    Entrada
+                    <input type="date">
+                </label>
+                <label>
+                    Saida
+                    <input type="date">
+                </label>
+                <label>
+                    Hospedes
+                    <input type="number" min="1" placeholder="2">
+                </label>
+                <button class="segundo" type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section class="hospedagens" id="hospedagens">
+            <div class="section-title">
+                <p class="etiqueta">Escolhas especiais</p>
+                <h2>Hospedagens em destaque</h2>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <img src="cabana.jpg" alt="Cabana aconchegante cercada por natureza">
+                    <div class="card-content">
+                        <h3>Cabana Vivaz</h3>
+                        <p>Perfeita para casais, com clima intimista, lareira e vista para a mata.</p>
+                        <span>A partir de R$ 280/noite</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="quartocasal.jpg" alt="Quarto de casal confortavel e bem iluminado">
+                    <div class="card-content">
+                        <h3>Suite Aurora</h3>
+                        <p>Quarto amplo, cama queen, cafe da manha incluso e decoracao acolhedora.</p>
+                        <span>A partir de R$ 220/noite</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="serra.jpg" alt="Paisagem de serra com muito verde">
+                    <div class="card-content">
+                        <h3>Refugio da Serra</h3>
+                        <p>Hospedagem tranquila para familias que buscam ar puro e experiencias ao ar livre.</p>
+                        <span>A partir de R$ 340/noite</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="vantagens" aria-label="Vantagens da Vivaz Hospedagens">
+            <div class="vantagem">
+                <strong>Reservas simples</strong>
+                <p>Escolha datas, hospedes e fale direto com nossa equipe.</p>
+            </div>
+            <div class="vantagem">
+                <strong>Lugares selecionados</strong>
+                <p>Opcoes confortaveis, bonitas e pensadas para boas memorias.</p>
+            </div>
+            <div class="vantagem">
+                <strong>Atendimento proximo</strong>
+                <p>Suporte antes, durante e depois da sua hospedagem.</p>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="sobre-content">
+                <p class="etiqueta">Nossa essencia</p>
+                <h2>Sobre a Vivaz Hospedagens</h2>
+                <p>
+                    A Vivaz Hospedagens nasceu para conectar pessoas a lugares que renovam a energia.
+                    Trabalhamos com hospedagens confortaveis, bem cuidadas e cercadas por experiencias
+                    que combinam descanso, natureza e acolhimento.
+                </p>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <div class="section-title">
+                <p class="etiqueta">Fale conosco</p>
+                <h2>Solicite sua reserva</h2>
+            </div>
+
+            <form class="form-contato">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <input type="tel" placeholder="Telefone ou WhatsApp">
+                <textarea placeholder="Conte qual hospedagem voce gostou e as datas desejadas"></textarea>
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Vivaz Hospedagens. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
